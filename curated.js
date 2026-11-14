@@ -7,10 +7,11 @@ situationsPage=function(){
   const first=firstSituationIds.map(id=>curatedData.situations.find(s=>s.id===id));
   const more=curatedData.situations.filter(s=>!firstSituationIds.includes(s.id));
   const buttons=rows=>rows.map(s=>`<button class="choice" data-situation="${esc(s.id)}">${esc(s.label)} →</button>`).join('');
-  page(`<a class="muted" href="#home">← Back</a><div class="eyebrow tools">PLAYING AS ${esc(name(p)).toUpperCase()}</div><h1>What’s happening?</h1><p>Pick the situation closest to yours.</p><div class="choice-grid">${buttons(first)}</div><details class="tools"><summary>Browse more situations</summary><div class="choice-grid tools">${buttons(more)}</div></details>`);
+  page(`<a class="muted" href="#home">← Back</a><div class="eyebrow tools">PLAYING AS ${esc(name(p)).toUpperCase()}</div><h1>What’s happening?</h1><form id="ownSceneForm">${area('ownSceneText','Tell '+esc(name(p))+' what’s happening','','What’s on your mind?',false)}<p class="note">Your note stays with you. Pick the closest situation below for a ready-made response.</p><button class="primary wide" type="submit">Choose a situation ↓</button></form><h2>Or start here</h2><div class="choice-grid" id="sceneChoices">${buttons(first)}</div><details class="tools"><summary>Browse more situations</summary><div class="choice-grid tools">${buttons(more)}</div></details>`);
+  document.querySelector('#ownSceneForm').onsubmit=e=>{e.preventDefault();document.querySelector('#sceneChoices').scrollIntoView({behavior:'smooth',block:'start'});};
   document.querySelectorAll('[data-situation]').forEach(b=>b.onclick=()=>{
     const answer=curatedData.responses.find(r=>r.ego_id===id&&r.situation_id===b.dataset.situation);
-    currentMoment={characterId:p.id,custom:{label:answer.situation,setting:'',direct:{perspective:answer.take,response:answer.say,action:answer.move}}};
+    currentMoment={characterId:p.id,custom:{label:answer.situation,setting:document.querySelector('#ownSceneText').value.trim(),direct:{perspective:answer.take,response:answer.say,action:answer.move}}};
     go('moment');
   });
 };
