@@ -1,0 +1,202 @@
+[
+  {
+    "id": "catalog-0",
+    "name": "Aveline",
+    "role": "Gallery owner",
+    "traits": "Poised Curious Discerning",
+    "story": "She turned a small collection of overlooked artists into a welcoming gallery. Keeps a small collection, hosts intimate dinners, and buys slowly.",
+    "habits": "Keeps a small collection, hosts intimate dinners, and buys slowly.",
+    "approach": "Look for the detail everyone is missing.",
+    "mantra": "My eye is worth trusting."
+  },
+  {
+    "id": "catalog-1",
+    "name": "Nico",
+    "role": "Community radio host",
+    "traits": "Warm Witty Brave",
+    "story": "He started with a late-night show and learned to speak as if one person were listening. Keeps late hours, collects records, and talks to strangers.",
+    "habits": "Keeps late hours, collects records, and talks to strangers.",
+    "approach": "Start a conversation before trying to solve the whole thing.",
+    "mantra": "My voice belongs in the room."
+  },
+  {
+    "id": "catalog-2",
+    "name": "Imani",
+    "role": "Public-interest lawyer",
+    "traits": "Principled Steady Clear",
+    "story": "She prepares carefully, then makes her point without burying it in apologies. Reads widely, prepares carefully, and keeps her promises.",
+    "habits": "Reads widely, prepares carefully, and keeps her promises.",
+    "approach": "Separate what happened from what everyone is assuming.",
+    "mantra": "I can say the difficult thing kindly."
+  },
+  {
+    "id": "catalog-7",
+    "name": "Bea",
+    "role": "Ceramic artist",
+    "traits": "Patient Tactile Open",
+    "story": "She opens her studio doors before everything is perfect and lets people handle the pieces. Works in a messy studio, cooks by feel, and gives handmade gifts.",
+    "habits": "Works in a messy studio, cooks by feel, and gives handmade gifts.",
+    "approach": "Make a rough version you can actually look at.",
+    "mantra": "My work deserves daylight."
+  },
+  {
+    "id": "catalog-8",
+    "name": "Tessa",
+    "role": "Independent publisher",
+    "traits": "Editorial Decisive Calm",
+    "story": "She built a tiny press around voices she wished she had found earlier. Runs a tiny press, rereads favourite books, and protects quiet mornings.",
+    "habits": "Runs a tiny press, rereads favourite books, and protects quiet mornings.",
+    "approach": "Decide what belongs here and cut one thing that doesn’t.",
+    "mantra": "I can choose a direction and revise later."
+  },
+  {
+    "id": "catalog-9",
+    "name": "Jules",
+    "role": "Product designer",
+    "traits": "Inventive Practical Curious",
+    "story": "They bring rough ideas to the table and ask what would make them useful. Builds prototypes, changes routines often, and carries a sketchbook.",
+    "habits": "Builds prototypes, changes routines often, and carries a sketchbook.",
+    "approach": "Turn the unknown into a question you can test.",
+    "mantra": "A prototype teaches me more than a plan."
+  },
+  {
+    "id": "catalog-10",
+    "name": "Malik",
+    "role": "Restaurant founder",
+    "traits": "Resourceful Hospitable Firm",
+    "story": "He runs a busy kitchen by naming priorities and making room for his team. Feeds friends, runs a busy kitchen, and takes Mondays off.",
+    "habits": "Feeds friends, runs a busy kitchen, and takes Mondays off.",
+    "approach": "Choose the priority and say who owns the next step.",
+    "mantra": "I can lead with care and clarity."
+  },
+  {
+    "id": "catalog-13",
+    "name": "Romy",
+    "role": "Event producer",
+    "traits": "Energetic Flexible Social",
+    "story": "She can turn a rainy launch into a lively gathering with one phone call. Throws lively parties, loves a last-minute invitation, and travels light.",
+    "habits": "Throws lively parties, loves a last-minute invitation, and travels light.",
+    "approach": "Work with what is here rather than waiting for the original plan.",
+    "mantra": "I can adjust without losing my direction."
+  },
+  {
+    "id": "catalog-14",
+    "name": "Dalia",
+    "role": "Investigative journalist",
+    "traits": "Tenacious Ethical Focused",
+    "story": "She checks the facts, makes the call and lets the evidence guide her next move. Keeps detailed notes, checks sources, and takes long walks alone.",
+    "habits": "Keeps detailed notes, checks sources, and takes long walks alone.",
+    "approach": "Ask for the missing information before drawing a conclusion.",
+    "mantra": "I can follow the question patiently."
+  },
+  {
+    "id": "catalog-15",
+    "name": "Hana",
+    "role": "Florist and shopkeeper",
+    "traits": "Creative Steady Attentive",
+    "story": "She made a corner shop into a place people visit when they need a breath. Opens her flower shop early, arranges seasonal stems, and closes on time.",
+    "habits": "Opens her flower shop early, arranges seasonal stems, and closes on time.",
+    "approach": "Choose the useful detail that makes this feel considered.",
+    "mantra": "Small beauty is real work."
+  },
+  {
+    "id": "catalog-18",
+    "name": "Cleo",
+    "role": "Dance teacher",
+    "traits": "Affectionate Playful Open",
+    "story": "She brings warmth into a room and lets a new friendship unfold at its own pace. Dances in the kitchen, plans dates, and says when she likes someone.",
+    "habits": "Dances in the kitchen, plans dates, and says when she likes someone.",
+    "approach": "Let the other person see what you actually enjoy.",
+    "mantra": "I am allowed to enjoy being known."
+  },
+  {
+    "id": "catalog-17",
+    "name": "Theo",
+    "role": "Wildlife photographer",
+    "traits": "Patient Loyal Curious",
+    "story": "He remembers small details about people and makes unhurried room for them. Spends days outdoors, remembers birthdays, and keeps a few close friends.",
+    "habits": "Spends days outdoors, remembers birthdays, and keeps a few close friends.",
+    "approach": "Listen for the detail that matters to the other person.",
+    "mantra": "Connection grows through attention."
+  },
+  {
+    "id": "catalog-20",
+    "name": "Ada",
+    "role": "Landscape architect",
+    "traits": "Gentle Independent Devoted",
+    "story": "She makes plans with a partner while preserving time for her own work and walks. Designs gardens, lives with a partner, and keeps solo weekends.",
+    "habits": "Designs gardens, lives with a partner, and keeps solo weekends.",
+    "approach": "Say what you want while leaving room for their answer.",
+    "mantra": "I can love and keep my own shape."
+  },
+  {
+    "id": "catalog-32",
+    "name": "Suki",
+    "role": "Travel essayist",
+    "traits": "Adventurous Observant Free",
+    "story": "She travels slowly, writes what she notices and returns home when she wants. Travels slowly, writes in cafés, and comes home when she misses it.",
+    "habits": "Travels slowly, writes in cafés, and comes home when she misses it.",
+    "approach": "Try a small detour and find out how it actually feels.",
+    "mantra": "I can choose a path of my own."
+  },
+  {
+    "id": "catalog-34",
+    "name": "Noemi",
+    "role": "Independent architect",
+    "traits": "Self-directed Refined Courageous",
+    "story": "She left a prestigious office to work on smaller spaces she cares about. Runs a small architecture practice and turns down projects she dislikes.",
+    "habits": "Runs a small architecture practice and turns down projects she dislikes.",
+    "approach": "Check whether this is a choice you actually want to own.",
+    "mantra": "I can build a life around my values."
+  },
+  {
+    "id": "catalog-37",
+    "name": "Marta",
+    "role": "Festival storyteller",
+    "traits": "Spontaneous Warm Daring",
+    "story": "She collects local stories and turns unfamiliar places into conversations. Lives out of a small bag, tells stories, and finds company everywhere.",
+    "habits": "Lives out of a small bag, tells stories, and finds company everywhere.",
+    "approach": "Find the interesting part and invite someone into it.",
+    "mantra": "I can try a new chapter."
+  },
+  {
+    "id": "catalog-36",
+    "name": "Kiran",
+    "role": "Remote systems consultant",
+    "traits": "Strategic Private Flexible",
+    "story": "He works from different places and chooses clients who respect his time. Works remotely, packs lightly, and keeps his calendar deliberately sparse.",
+    "habits": "Works remotely, packs lightly, and keeps his calendar deliberately sparse.",
+    "approach": "Sort out the practical constraint so you have more room to choose.",
+    "mantra": "I can design my own terms."
+  },
+  {
+    "id": "catalog-39",
+    "name": "Faye",
+    "role": "Potter and homesteader",
+    "traits": "Resourceful Gentle Rooted",
+    "story": "She grows a small garden and sells enough handmade pieces to sustain her days. Grows food, makes pottery, and sells only what she can comfortably produce.",
+    "habits": "Grows food, makes pottery, and sells only what she can comfortably produce.",
+    "approach": "Ask what is enough for this to work well.",
+    "mantra": "Freedom can be a slower life."
+  },
+  {
+    "id": "catalog-46",
+    "name": "Hugo",
+    "role": "Independent bookseller",
+    "traits": "Selective Patient Optimistic",
+    "story": "He built a profitable shop by knowing his community and watching cash flow. Runs a neighbourhood bookshop, remembers readers, and reinvests carefully.",
+    "habits": "Runs a neighbourhood bookshop, remembers readers, and reinvests carefully.",
+    "approach": "Look for the choice you can keep repeating without burning out.",
+    "mantra": "My work can grow at a human scale."
+  },
+  {
+    "id": "catalog-49",
+    "name": "Estelle",
+    "role": "Perfumer and founder",
+    "traits": "Visionary Composed Generous",
+    "story": "She turned a personal craft into a small house with loyal customers. Makes perfume, collects unusual scents, and gives her work a dramatic launch.",
+    "habits": "Makes perfume, collects unusual scents, and gives her work a dramatic launch.",
+    "approach": "Present your choice as something you have deliberately made.",
+    "mantra": "I can ask to be paid for my vision."
+  }
+]
