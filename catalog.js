@@ -73,3 +73,88 @@ const egoDesigns=[
 ['Estelle','Commits to a distinctive vision and lets it command a price.','Makes perfume, collects unusual scents, and gives her work a dramatic launch.','Present your choice as something you have deliberately made.','This is the direction I chose. Here’s why I love it.','Show one piece of your work without explaining its flaws.']
 ];
 const catalog=egoDesigns.map(([n,hook,habits,approach,response,action])=>{const p=archivedCatalog.find(x=>x.name===n);if(!p)throw Error('Missing ego '+n);return {...p,hook,habits,approach,response,action,challenge:approach,story:p.story+' '+habits}});
+
+// Each ego has two authored days, with five behaviours in each.
+const egoDays={
+Aveline:[
+'Walk into a place slowly enough to notice it.|Choose your outfit around one detail you love.|Ask one thoughtful question instead of filling the silence.|State a preference before checking everyone else’s.|Enjoy lunch without scrolling.',
+'Visit a shop or corner you usually pass.|Take a photo of a detail that catches your eye.|Buy nothing until you know what you like about it.|Tell someone exactly what you appreciate about their work.|Make one small corner of your home look considered.'
+],
+Nico:[
+'Say hello first.|Ask someone what they’ve been listening to lately.|Put your phone away while someone tells a story.|Wear the thing that starts a conversation.|Send a friend something that made you laugh.',
+'Play a song while getting ready.|Ask a familiar face their name.|Tell a story without apologising for taking a minute.|Invite someone to a low-key catch-up.|Listen to something outside your usual taste.'
+],
+Imani:[
+'Read the details before agreeing to something.|Make one point without adding “maybe I’m wrong”.|Ask what someone means when their answer is vague.|Keep a promise you already made.|Put a firm finish time on your workday.',
+'Check a fact before passing it along.|Say what you need in one clear request.|Prepare your first sentence before a difficult conversation.|Give someone credit by name.|Leave an argument once you have made your point.'
+],
+Bea:[
+'Make something with your hands for ten minutes.|Use the cup you made or chose yourself.|Show someone a work in progress.|Try an idea before buying more supplies.|Leave a little mess until you finish making.',
+'Wear something you can comfortably work in.|Cook one thing by taste rather than exact measurements.|Repair or repurpose a small object.|Let someone handle or try what you made.|Stop tinkering when the piece does what you wanted.'
+],
+Tessa:[
+'Read a few pages before opening social media.|Cut one sentence from a message before sending it.|Decline something that does not fit your plans.|Wear a combination you already know you love.|Keep one quiet hour free of background noise.',
+'Choose one thing to finish before opening another.|Recommend a book with a specific reason.|Unsubscribe from something you never read.|Give an honest opinion when someone asks for it.|End the day with a page worth rereading.'
+],
+Jules:[
+'Sketch the idea before explaining it.|Try a different way to do a familiar task.|Show a rough version to someone who might use it.|Ask “what would happen if we tried this?”|Write down what actually happened after an experiment.',
+'Carry a notebook or open a quick sketch note.|Build with what you already have.|Set a short time limit for a first attempt.|Change one thing rather than rebuilding everything.|Keep a failed attempt long enough to learn from it.'
+],
+Malik:[
+'Name the first priority before getting busy.|Ask someone to own a clearly defined task.|Make sure you eat a proper lunch.|Thank someone for a specific contribution.|Leave your workspace ready for the next person.',
+'Check what supplies you have before making plans.|Tell people early if the plan changes.|Offer someone a meal or a place at the table.|Make a decision that unblocks another person.|Sit down to eat without trying to work at the same time.'
+],
+Romy:[
+'Put on music while getting ready.|Suggest an alternative when a plan stalls.|Introduce two people who might get along.|Keep one useful thing in your bag.|Leave room for an unplanned invitation.',
+'Turn an ordinary meal into a small occasion.|Make the call rather than sending five more messages.|Use what is available to solve one small problem.|Laugh about a harmless thing that went wrong.|Invite someone with a specific time and place.'
+],
+Dalia:[
+'Ask one follow-up question.|Read beyond the headline.|Write down an observation before deciding what it means.|Make the call you have been postponing.|Take a walk without listening to anything.',
+'Check the original source of a claim.|Ask someone to explain a detail in their own words.|Keep a short note of an interesting conversation.|Say “I don’t know yet” when that is true.|Stop researching when you have enough to act.'
+],
+Hana:[
+'Put something seasonal on your table.|Choose a colour you want to wear today.|Quote your price without a nervous discount.|Greet a regular by name.|Close work at the time you planned.',
+'Make an everyday package or gift look lovely.|Notice which colours look good together outside.|Tell a customer or colleague what you recommend.|Use the good plate for an ordinary meal.|Remove one thing that has finished serving its purpose.'
+],
+Cleo:[
+'Move to a favourite song while getting ready.|Tell someone you are pleased to see them.|Suggest a specific date or outing.|Wear something you enjoy moving in.|Ask for the kind of company you want tonight.',
+'Give a compliment without making it a joke.|Let someone know when something delights you.|Try a playful change to a familiar routine.|Send the invitation before over-editing it.|Make time for a conversation you actually want.'
+],
+Theo:[
+'Remember one detail someone told you and ask about it.|Spend part of your break outdoors.|Let someone finish their story.|Follow through on a small offer of help.|Take a photo because you want to keep the moment.',
+'Check in with one person you have been thinking about.|Leave your phone in your pocket during a walk.|Ask what would be useful before offering help.|Share something from your own day too.|Choose one unhurried catch-up over several rushed ones.'
+],
+Ada:[
+'Say which option you prefer before negotiating.|Keep a little time for something of your own.|Ask someone close to you for one specific thing.|Spend a few minutes with a plant or outside space.|Make plans together without giving away your whole weekend.',
+'Tell someone both what you want and what you can offer.|Enjoy a meal or errand on your own.|Arrange one practical detail that makes home nicer.|Let a loved one have a different opinion.|Keep a personal plan even when nobody joins you.'
+],
+Suki:[
+'Take a different street on a familiar journey.|Order something because you are curious about it.|Write down one detail you noticed today.|Ask someone for a local recommendation.|Stay a little longer somewhere you are enjoying.',
+'Leave one small part of an outing unplanned.|Take a photo of something other than the obvious view.|Try a nearby place you have never entered.|Read a page about somewhere you want to go.|Tell someone about a small discovery from your day.'
+],
+Noemi:[
+'Choose one task you want your name attached to.|Explain a decision without a long defence.|Keep one part of your day free for focused work.|Say no to a request that would derail your priorities.|Notice how a room affects the way you use it.',
+'Make a small improvement to your workspace.|Ask whether a commitment fits the life you want.|Show someone a choice you are proud of.|Take a proper break away from your desk.|Finish one detail to your own standard.'
+],
+Marta:[
+'Say yes to a small unfamiliar experience that interests you.|Ask someone about the place they grew up.|Wear something with a story behind it.|Invite a friend along on an ordinary errand.|Tell the funny part of your day.',
+'Look up one local event you would actually enjoy.|Start a conversation with a question you want answered.|Try a food or song someone recommends.|Make a plan with room for a detour.|Share a story instead of only sending a photo.'
+],
+Kiran:[
+'Check your calendar before agreeing to anything.|Do one task somewhere different if practical.|Close messages while doing focused work.|Ask for a deadline instead of assuming urgency.|Leave one evening free of commitments.',
+'Pack only what you need for the day.|Make one recurring task easier to repeat.|Tell someone when you will be available.|Choose a client or work request using your actual capacity.|End work with a clear note of where to restart.'
+],
+Faye:[
+'Make a meal using something you already have.|Work on one useful thing with your hands.|Spend a little time tending something living.|Decide what enough looks like before starting.|Stop when the work reaches that point.',
+'Repair something small instead of replacing it.|Take your drink somewhere you can see the sky.|Use a handmade object in your everyday routine.|Leave a purchase until you have checked what you own.|Make something at a pace you could happily repeat.'
+],
+Hugo:[
+'Ask someone what they have enjoyed reading or watching.|Look at one real number before making a work decision.|Recommend something with their taste in mind.|Keep a little time for a regular customer or friend.|Choose the option you can afford to keep doing.',
+'Read a chapter without multitasking.|Remember a name and use it.|Follow up on a small agreement.|Check what came in and what went out this week.|Enjoy a modest success before moving to the next task.'
+],
+Estelle:[
+'Choose one distinctive detail for your outfit.|Notice a scent and what it reminds you of.|Present a piece of work without listing its flaws.|Say what you love about a choice you made.|Use something special on an ordinary day.',
+'Give a project or idea a memorable name.|Ask someone what they notice first about your work.|Keep one unusual idea instead of smoothing it away.|State your price clearly.|Make the first few seconds of something feel deliberate.'
+]
+};
+for(const p of catalog)p.days=egoDays[p.name].map(day=>day.split('|'));
